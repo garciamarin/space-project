@@ -3,8 +3,8 @@ import { Box, Typography, Paper } from '@mui/material';
 import {useState} from "react";
 
 
-export default function LiveDataComp() {
-    
+export default function getBtc() {
+
     const [btc, getBtc] = useState("")
     
     getBtc() {
@@ -14,17 +14,11 @@ export default function LiveDataComp() {
             getBtc(data.id + "  " + data.price);
             });
     };
-            
-    
-    return (
-        <>
-        <Box m={2}>
-        <Paper>
-        <Typography>
-           <div> <getBtc/> </div>
-        </Typography>
-        </Paper>
-        </Box>
-        </>
-    )
+    return(
+<div>
+    {btc}
+</div>
+
+    )  
+  
 }
