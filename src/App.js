@@ -4,7 +4,8 @@ import ContentfulDataComp from "./ContentfulData";
 import AppBarComp from "./AppBar";
 import { Grid, Paper, Typography } from "@mui/material";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
-
+import GetBtc from './btc_ticker';
+import GetWisdom from "./random_wisdom";
 
 const theme = createTheme({
   palette: {
@@ -21,7 +22,7 @@ const theme = createTheme({
 
 function App() {
 
-  construct
+ 
   return (
     <ThemeProvider theme={theme}>
       <div className="App">
@@ -37,10 +38,10 @@ function App() {
           >
             <Grid item xs={12} md={4}>
               <Grid item>
-                <LiveDataComp />
+                <GetWisdom />
               </Grid>
               <Grid item>
-                <LiveDataComp />
+                <GetBtc />
               </Grid>
             </Grid>
             <Grid item xs={12} md={7}>
