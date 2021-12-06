@@ -5,6 +5,7 @@ import AppBarComp from "./AppBar";
 import { Grid, Paper, Typography } from "@mui/material";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 
+
 const theme = createTheme({
   palette: {
     primary: {
@@ -19,6 +20,8 @@ const theme = createTheme({
 });
 
 function App() {
+
+  construct
   return (
     <ThemeProvider theme={theme}>
       <div className="App">
