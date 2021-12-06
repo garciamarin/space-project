@@ -1,17 +1,20 @@
 import React from 'react';
 import { ConstructionRounded } from '@mui/icons-material';
 import { Box, Typography, Paper } from '@mui/material';
-import {useState} from "react";
+import {useState, useEffect} from "react";
 
 export default function GetWisdom() {
 
-    const [wisdom, getWisdom] = useState("");
+    const [wisdom, setWisdom] = useState("");
 
-fetch("https://type.fit/api/quotes")
-.then((res) => res.json())
-.then((data) => {
-     getWisdom(data.text + " Author:" + data.author);
-     });
+    useEffect(() => {
+        fetch("https://type.fit/api/quotes")
+            .then((res) => res.json())
+            .then((data) => {
+        setWisdom(data[0].text + " Author:" + data[0].author);
+        });
+    }, [])
+
   return(
     <div>
         {wisdom}

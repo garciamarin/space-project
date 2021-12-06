@@ -5,7 +5,7 @@ import AppBarComp from "./AppBar";
 import { Grid, Paper, Typography } from "@mui/material";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import GetBtc from './btc_ticker';
-import GetWisdom from "./random_wisdom";
+import GetWisdom from './random_wisdom';
 
 const theme = createTheme({
   palette: {
@@ -22,7 +22,6 @@ const theme = createTheme({
 
 function App() {
 
- 
   return (
     <ThemeProvider theme={theme}>
       <div className="App">
