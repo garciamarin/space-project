@@ -1,5 +1,6 @@
 {
   "name": "space-project",
+  "homepage": "https://garciamarin.github.io/space-project/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
