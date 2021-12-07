@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/space-project/static/css/main.65868372.chunk.css",
+    "main.js": "/space-project/static/js/main.d2471b84.chunk.js",
+    "main.js.map": "/space-project/static/js/main.d2471b84.chunk.js.map",
+    "runtime-main.js": "/space-project/static/js/runtime-main.0f8bc124.js",
+    "runtime-main.js.map": "/space-project/static/js/runtime-main.0f8bc124.js.map",
+    "static/css/2.383c0125.chunk.css": "/space-project/static/css/2.383c0125.chunk.css",
+    "static/js/2.6f8c9f5b.chunk.js": "/space-project/static/js/2.6f8c9f5b.chunk.js",
+    "static/js/2.6f8c9f5b.chunk.js.map": "/space-project/static/js/2.6f8c9f5b.chunk.js.map",
+    "index.html": "/space-project/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/space-project/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.65868372.chunk.css.map": "/space-project/static/css/main.65868372.chunk.css.map",
+    "static/js/2.6f8c9f5b.chunk.js.LICENSE.txt": "/space-project/static/js/2.6f8c9f5b.chunk.js.LICENSE.txt",
+    "static/media/ErrorRoute.css": "/space-project/static/media/astro.2b243fc2.jpeg",
+    "static/media/video.6a2a98eb.png": "/space-project/static/media/video.6a2a98eb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f8bc124.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.6f8c9f5b.chunk.js",
+    "static/css/main.65868372.chunk.css",
+    "static/js/main.d2471b84.chunk.js"
+  ]
+}
