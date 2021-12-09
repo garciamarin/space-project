@@ -33,17 +33,9 @@ export default function Tabs() {
             scrollButtons="auto"
             aria-label="Live tabs"
           >
-            <Tab  label="Live One" 
-                  value="1"  
-                  component={Link}  
-                  to={`/live_stuff/feed_${value}`}
-                  sx={{':hover': {
-                    color: 'info.main'
-                      },
-                      }}
-            />
+         
             <Tab  label="Hottest Spatial News!!" 
-                  value="2"  
+                  value="1"  
                   component={Link} 
                   to={`/live_stuff/feed_${value}`}
                   sx={{':hover': {
@@ -52,8 +44,17 @@ export default function Tabs() {
                       }}
             />
             <Tab  label="ISS Live" 
-                  value="3"
+                  value="2"
                   component={Link}   
+                  to={`/live_stuff/feed_${value}`}
+                  sx={{':hover': {
+                    color: 'info.main'
+                      },
+                      }}
+            />
+               <Tab  label="Check Bitcoin Live" 
+                  value="3"  
+                  component={Link}  
                   to={`/live_stuff/feed_${value}`}
                   sx={{':hover': {
                     color: 'info.main'

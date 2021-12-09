@@ -24,7 +24,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "homepage": "https://garciamarin.github.io/space-project/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
