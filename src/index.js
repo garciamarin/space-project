@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import {Typography } from '@mui/material';
 import { CssBaseline } from '@mui/material';
 import { theme } from "./MuiStyle";
@@ -14,7 +14,7 @@ import ErrorRoute from './ErrorRoute';
 
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <CssBaseline />
     <ThemeProvider theme={theme}>
       <Routes>
@@ -32,6 +32,6 @@ ReactDOM.render(
         <Route path="*" element={<ErrorRoute/>} />
       </Routes>
     </ThemeProvider>
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById('root')
 );

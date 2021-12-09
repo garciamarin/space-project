@@ -13,14 +13,14 @@ export default function Tab() {
     const params = useParams();
 
     const TabContent = {
-        '1':<Typography mx="auto"  textAlign='center' variant='h2' > 
+        '3':<Typography mx="auto"  textAlign='center' variant='h2' > 
                 <GetBtc/>
                 <GetWisdom/>
             </Typography>,
 
-        '2':<NewsSearch/>,
+        '1':<NewsSearch/>,
 
-        '3':<Live3/>
+        '2':<Live3/>
     }
 
     return (
